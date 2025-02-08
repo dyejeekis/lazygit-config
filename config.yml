@@ -438,7 +438,7 @@ keybinding:
   universal:
     quit: q
     quit-alt1: <c-c>
-    return: <backspace>
+    return: h
     quitWithoutChangingDirectory: Q
     togglePanel: <tab>
     prevItem: <up>
@@ -456,8 +456,8 @@ keybinding:
     rangeSelectUp: <s-up>
     prevBlock: <left>
     nextBlock: <right>
-    prevBlock-alt: h
-    nextBlock-alt: l
+    prevBlock-alt: <disabled>
+    nextBlock-alt: <disabled>
     nextBlock-alt2: <tab>
     prevBlock-alt2: <backtab>
     jumpToBlock:
@@ -472,7 +472,7 @@ keybinding:
     optionMenu: <disabled>
     optionMenu-alt1: '?'
     select: <space>
-    goInto: <enter>
+    goInto: l
     confirm: <enter>
     confirmInEditor: <a-enter>
     remove: d
